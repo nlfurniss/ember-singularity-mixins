@@ -8,6 +8,7 @@ module.exports = {
   extends: ["eslint:recommended", "plugin:ember/recommended"],
   env: {
     browser: true,
+    node: true,
   },
   rules: {},
   overrides: [
